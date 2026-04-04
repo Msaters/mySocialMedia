@@ -2,11 +2,11 @@
 
 A social media application built using the **MERN** stack (MongoDB, Express, React, Node.js). This project serves as a testing playground to learn full-stack development, focusing on building a highly secure authentication system.
 
-##  Project Status
+## Project Status
 
 **Work unfinished** The core authentication and user management module is fully completed. Other social media features (like posting or commenting) are unfinished.
 
-##  Key Features
+## Key Features
 
 * **User Registration:** Users can create new accounts, and initial profile data is assigned to them in the database.
 * **Password Encryption:** Passwords are not stored in plain text. They are securely hashed/encrypted before saving them to MongoDB to ensure data safety.
@@ -14,14 +14,14 @@ A social media application built using the **MERN** stack (MongoDB, Express, Rea
   * **Access Token:** A short-lived token (valid for a few minutes) used for secure API requests.
   * **Refresh Token:** A long-lived token (valid for months) used to seamlessly request a new Access Token behind the scenes when the old one expires.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Frontend:** React.js, HTML, CSS
 * **Backend:** Node.js, Express.js
 * **Database:** MongoDB
 * **Testing:** Postman (API)
 
-## 🚀 How to Run
+## How to Run
 
 Since the project is divided into a frontend and a backend, you will need to start both servers separately. Make sure you have [Node.js](https://nodejs.org/) installed.
 
